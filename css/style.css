@@ -1,0 +1,172 @@
+/* 
+Set the base styles for the body element 
+*/
+body {
+    /* Use 'Arial' as the default font, with 'sans-serif' as fallback */
+    font-family: 'Arial', sans-serif;
+    /* Set the background image with a cover fit */
+    background-color: black;
+    background-size: cover;
+    /* Center the content vertically and horizontally using Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set the height to full viewport height */
+    height: 100vh;
+    /* Remove default margins */
+    margin: 0;
+}
+
+/* 
+Styling for the main weather container 
+*/
+#wether {
+    /* Set a linear gradient background */
+    background: rgb(11, 201, 190);
+    background: linear-gradient(90deg, rgba(11, 201, 190, 1) 35%, rgba(0, 255, 211, 1) 100%);
+    /* Add rounded corners */
+    border-radius: 20px;
+    /* Set the width and padding */
+    width: 400px;
+    padding: 20px;
+    /* Set text color to white */
+    color: white;
+    /* Add a shadow effect */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    /* Center the text inside */
+    text-align: center;
+}
+
+/* 
+Styling for the search bar container 
+*/
+#search {
+    /* Arrange elements in a row with space between them */
+    display: flex;
+    justify-content: space-between;
+    /* Set the background color to white */
+    background-color: white;
+    /* Add padding and rounded corners */
+    padding: 8px;
+    border-radius: 20px;
+    /* Add space below the search bar */
+    margin-bottom: 20px;
+}
+
+/* 
+Styling for the input field inside the search bar 
+*/
+#search input {
+    /* Remove borders and outlines */
+    border: none;
+    outline: none;
+    /* Allow the input field to expand and fill available space */
+    flex-grow: 1;
+    /* Add rounded corners and padding */
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+/* 
+Styling for the search icon inside the search bar 
+*/
+#search img {
+    /* Change the cursor to pointer when hovering over the icon */
+    cursor: pointer;
+}
+
+/* 
+Styling for the main weather icon (e.g., sunny, cloudy) 
+*/
+#main img {
+    /* Set a fixed width for the weather icon */
+    width: 80px;
+    /* Add space below the icon */
+    margin-bottom: 5px;
+}
+
+/* 
+Styling for the temperature display 
+*/
+#temp {
+    /* Increase the font size and set font weight to bold */
+    font-size: 48px;
+    font-weight: bold;
+    /* Set text color to black */
+    color: black;
+}
+
+/* 
+Styling for the city name display 
+*/
+#city {
+    /* Set the font size and add space below */
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* Set text color to black */
+    color: black;
+}
+
+/* 
+Styling for the individual columns (e.g., wind, humidity) 
+*/
+.col {
+    /* Allow the column to grow and take available space */
+    flex-grow: 1;
+    /* Align text to the left */
+    text-align: left;
+    /* Add space to the right of the column */
+    margin-right: 10px;
+}
+
+/* 
+Styling for the icons inside the columns 
+*/
+.col img {
+    /* Set a fixed width for the icons */
+    width: 24px;
+    /* Add space to the right of the icon */
+    margin-right: 10px;
+}
+
+/* 
+Styling for the header text inside columns (e.g., 'Wind', 'Humidity') 
+*/
+.col h3 {
+    /* Remove default margins */
+    margin: 0;
+    /* Set the font size */
+    font-size: 20px;
+    /* Set text color to black */
+    color: black;
+}
+
+/* 
+Styling for the paragraph text inside columns (e.g., '10 Km/h', '80%') 
+*/
+.col p {
+    /* Remove default margins */
+    margin: 0;
+    /* Set the font size */
+    font-size: 14px;
+    /* Set text color to black */
+    color: black;
+}
+
+/* 
+Remove the right margin from the last column to ensure it aligns well 
+*/
+.col:last-child {
+    margin-right: 0;
+    color: black;
+}
+
+/* 
+Styling for the humidity and wind display elements 
+*/
+#humidity, #wind {
+    /* Display them inline */
+    display: inline-block;
+    /* Set text color to black */
+    color: black;
+}
