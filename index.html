@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather Application</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="img/drizzle.png" type="image/x-icon">
+</head>
+<body>
+    <div id="wether">
+        <div id="search">
+            <input type="text" name="" id="">
+            <img src="./img/search.png" height="24px" width="24px" alt="" onclick="w()">
+        </div>
+        <div id="main">
+            <img id="weather-icon" src="./img/clouds.png" alt="weather icon">
+            <h1 id="temp">---</h1> <!-- Show the temp -->
+            <h2 id="city">---</h2> <!-- Show the city name -->
+            <h3 id="weather-description">---</h3> <!-- Show the weather description -->
+        <br>
+
+
+            <!-- speed and forecast -->
+            <div style="display:flex">
+                <div class="col" style="display:flex">
+                    <img src="./img/humidity.png" alt="">
+                    <div><h3 id="humidity"> &nbsp;---</h3><br><br>
+                <p style="font-size:20;font-weight:bold;">&nbsp;Humidity</p></div>
+                </div>
+                <div class="col" style="display:flex">
+                    <img src="./img/wind.png" alt="">
+                    <div><h3 id="wind">&nbsp;---</h3><br><br>
+                        <p style="font-size:20;font-weight:bold;">&nbsp; Wind Speed</p></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/script1.js"></script>
+</body>
+</html>
