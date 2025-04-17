@@ -2,7 +2,7 @@
 Set the base styles for the body element 
 */
 body {
-    /* Use 'Arial' as the default font, with 'sans-serif' as fallback */
+    
     font-family: 'Arial', sans-serif;
     /* Set the background image with a cover fit */
     background-color: black;
