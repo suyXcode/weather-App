@@ -23,7 +23,10 @@ project-root/
 
 ---
 
-## ⚙️ Architecture Overview
+## 📌 Architecture Diagram  
+
+![diagram](diagram.png)  
+
 
 ### 1. **UI Layer**
 - **HTML UI**  
