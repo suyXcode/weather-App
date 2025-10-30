@@ -86,7 +86,7 @@ project-root/
 ---
 
 
-## 📌 Architecture Diagram  
+## 📌 Output
 
 ![output](out.png)  
 
