@@ -85,6 +85,13 @@ project-root/
 
 ---
 
+
+## 📌 Architecture Diagram  
+
+![output](out.png)  
+
+---
+
 ## 📌 Notes
 - Ensure you have a valid API key for the weather API.  
 - Customize styles in `css/styles.css` for branding.  
