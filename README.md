@@ -95,4 +95,17 @@ project-root/
 ## 📌 Notes
 - Ensure you have a valid API key for the weather API.  
 - Customize styles in `css/styles.css` for branding.  
-- Extend `script1.js` for advanced interactions (e.g., caching, geolocation).  
+- Extend `script1.js` for advanced interactions (e.g., caching, geolocation).
+
+---
+
+---
+
+## 👨‍💻 Author
+
+👤 **Suyash Singh**  
+
+🔗 *GitHub: [https://github.com/suyXcode](https://github.com/suyXcode)*  
+💼 *LinkedIn: [https://www.linkedin.com/in/suyxcode/](https://www.linkedin.com/in/suyxcode/)*  
+🌐 *Portfolio: [https://suyxcode.netlify.app](https://suyxcode.netlify.app)*
+
