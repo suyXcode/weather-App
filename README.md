@@ -104,9 +104,9 @@ project-root/
 
 ## 👨‍💻 Author
 
-👤 **Aryan Tiwari**  
+👤 **Suyash Singh**  
 
-🔗 *GitHub: [https://github.com/suyXcode](https://github.com/Aryantiwari2911)*  
-💼 *LinkedIn: [https://www.linkedin.com/in/suyxcode/](https://www.linkedin.com/in/aryantiwari2911/)*  
+🔗 *GitHub: [https://github.com/suyXcode](https://github.com/suyxcode)*  
+💼 *LinkedIn: [https://www.linkedin.com/in/suyxcode/](https://www.linkedin.com/in/suyxcode/)*  
 
 
